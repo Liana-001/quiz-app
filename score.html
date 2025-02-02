@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+  <div class="result-box">
+    <h1 id="result-header"> Quiz Result</h1>
+    <p id="congratulations-message">Congratulations! You've come to the end of the quiz.</p>
+    <p id="result-text"></p>
+
+   
+  </div>
+
+  <script>
+    const finalScore = localStorage.getItem("finalScore");
+    console.log(finalScore);
+    document.getElementById("result-text").textContent = finalScore;
+  </script>
+ 
+</body>
+</html>
