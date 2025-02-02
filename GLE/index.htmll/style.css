@@ -1,0 +1,225 @@
+
+.{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background:#b65151;
+}
+#question-container {
+
+  
+  background: azure;
+  width: 100%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#question-container h1{
+
+font-size: 25px;
+color:#b65151;
+font-weight: 600;
+border-bottom: 1px solid #333;
+padding-bottom: 30px;
+}
+
+
+#question-container h1{
+  font-size: 25px;
+  color:#b65151;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+
+#next-question-btn{
+  background: #b65151;
+    color: white;
+    font-weight: 500;
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.quiz{
+  padding: 20px 0;
+}
+
+
+/* Style the answer options */
+.answer-option {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the answer options */
+.answer-option {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease;
+}
+
+/* Style the correct answer */
+.correct-answer {
+  background-color: lightgreen;
+}
+
+/* Style the incorrect answer */
+.incorrect-answer {
+  background-color: lightcoral;
+}
+
+
+/* Style the answer options */
+.answer-option {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease;
+}
+
+/* Animation to blink the correct answer */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Style the retake quiz button */
+#retake-quiz-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#retake-quiz-btn:hover {
+  background-color:#b65151;
+}
+
+
+#timer {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  background-color: azure;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* Style the answer options */
+#answer-options {
+  margin-top: 20px;
+}
+
+#answer-options div {
+  margin-bottom: 10px;
+}
+
+
+
+#result-header {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#congratulations-message {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.result-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(212, 193, 193, 0.5);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-radius: 20px;
+}
+
+#result-text {
+  font-size: 48px;
+  font-weight: bold;
+font-style: oblique;
+color: #b65151;
+}
+
+
+
+
+
+/* Default styles for smaller screens */
+
+/* Add styles for larger screens using media queries */
+@media only screen and (min-width: 769px) {
+  /* Styles for larger screens */
+}
+
+/* Add styles for tablet screens */
+@media only screen and (min-width: 992px) {
+  /* Styles for tablet screens */
+}
+
+/* Add styles for desktop screens */
+@media only screen and (min-width: 1200px) {
+  /* Styles for desktop screens */
+}
+
+
+/* Media query for smaller screens (e.g., cellphones) */
+@media only screen and (max-width: 768px) {
+  
+}
+
+/* Media query for even smaller screens (e.g., older smartphones) */
+@media only screen and (max-width: 480px) {
+ 
+}
